@@ -1,0 +1,57 @@
+
+footer{
+  text-align: center;
+}
+p {
+  font-size: 20px;
+}
+
+/* Class styles */
+.nav-link{
+  color: #eaeaea;
+  margin: 0 20px;
+  font-size: 20px;
+}
+.cover-heading{
+  font-family:monospace ;
+  font-weight: bold;
+  font-size: 75px;
+}
+.lead{
+  font-family: monospace;
+}
+
+.intrest-img{
+  height:275px;
+  width:325px;
+  margin: 0 auto;
+  border-radius: 5%;
+}
+
+.jumbotron{
+  background-color: #b5edba;
+}
+
+/* ID Styles */
+#coverImg {
+  display: block;
+  height: 412px;
+  width: 40%;
+  margin: 30px auto;
+  border-radius: 5%;
+
+}
+
+#index-body{
+  background-image: radial-gradient(#00bdaa,#257aa6,#621e81);
+  background-position: center;
+  background-color: #eaeaea;
+  background-repeat: no-repeat;
+}
+
+#intrests-body{
+  background-image: radial-gradient(#00bdaa,#257aa6,#621e81);
+  background-position: center;
+  background-color: #eaeaea;
+  background-repeat: no-repeat;
+}
