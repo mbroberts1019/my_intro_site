@@ -30,4 +30,11 @@ function toldYouSo(){
   let dogImg = document.getElementById("cliffImg");
   dogImg.src = "images/cliffypoo.jpeg";
   setTimeout(function(){ alert("Told you so!"); }, 1000);
+  setTimeout(function(){ dogImg.src = "images/cliffturd.jpeg"; }, 5000);
+  setTimeout(function(){ dogImg.src = "images/handsomeman.jpeg"; }, 10000);
+
+
+
+
+
 }
