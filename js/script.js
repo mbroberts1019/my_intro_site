@@ -25,3 +25,9 @@ function toggleBackground(){
     console.log("not working yet");
   }
 }
+
+function toldYouSo(){
+  let dogImg = document.getElementById("cliffImg");
+  dogImg.src = "images/cliffypoo.jpeg";
+  setTimeout(function(){ alert("Told you so!"); }, 1000);
+}
