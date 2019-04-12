@@ -11,7 +11,7 @@ function iDontKnow() {
 var originalBackground = true;
 
 function toggleBackground() {
-  let bodyClass = document.getElementById("index-body");
+  let bodyClass = document.getElementsByTagName("body")[0];
   if (!originalBackground) {
     bodyClass.style.backgroundImage = "radial-gradient(#00bdaa,#257aa6,#621e81)";
     originalBackground = true;
@@ -22,6 +22,8 @@ function toggleBackground() {
     console.log("not working yet");
   }
 }
+
+
 
 function toldYouSo() {
   let dogImg = document.getElementById("cliffImg");
