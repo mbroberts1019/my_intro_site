@@ -41,3 +41,16 @@ function toldYouSo() {
     dogImg.src = "images/handsomeman.jpeg";
   }, 10000);
 }
+
+
+//slide togggle p element
+
+$("#btn-bikes").on("click", function(){
+  console.log("clicking");
+  $("#slider").slideToggle();
+});
+
+$("#btn-sew").on("click", function(){
+  console.log("click");
+  $("#fader").fadeToggle();
+});
