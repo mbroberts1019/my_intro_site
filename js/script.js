@@ -1,12 +1,10 @@
 // jshint esversion:6
-//alert("Did it work?");
-
-
 
 function iDontKnow() {
   alert("Haven't decided what to do with this button yet");
-
 }
+
+/* Original backgroundToggle function depends on "onclick" in html file
 
 var originalBackground = true;
 
@@ -22,8 +20,13 @@ function toggleBackground() {
     console.log("not working yet");
   }
 }
+*/
 
-
+ /* And a much cleaner jQuery version. Also keeps styling out of script.js yeah!! */
+$("#btn-home").click(function(){
+  console.log("function called");
+  $( "body" ).toggleClass("new-body");
+});
 
 function toldYouSo() {
   let dogImg = document.getElementById("cliffImg");
@@ -37,9 +40,4 @@ function toldYouSo() {
   setTimeout(function() {
     dogImg.src = "images/handsomeman.jpeg";
   }, 10000);
-
-
-
-
-
 }

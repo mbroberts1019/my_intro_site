@@ -9,11 +9,42 @@ body {
 footer{
   text-align: center;
 }
+
+h1 {
+  text-align: center;
+  font-family: monospace;
+  font-size: 75px;
+}
+h2 {
+  font-family: monospace;
+  font-size: 32px;
+  font-weight: bolder;
+}
 p {
   font-size: 20px;
 }
 
 /* Class styles */
+.jumbotron{
+  background-image: url("../images/520river.jpg");
+  background-size: cover;
+
+}
+.transbox{
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: .75;
+  border-radius: 10%;
+}
+
+.transbox.p{
+  color: black;
+  font-weight: bold;
+}
+.interest-jumbo{
+  color: black;
+}
+
 .nav-link{
   color: #eaeaea;
   margin: 0 20px;
@@ -23,6 +54,7 @@ p {
   font-family:monospace ;
   font-weight: bold;
   font-size: 75px;
+
 }
 .lead{
   font-family: monospace;
@@ -52,7 +84,7 @@ p {
 
 
 .new-body{
-  background-image: radial-gradient(#00bdaa,#257aa6,#621e81);
+  background-image: radial-gradient(#fac70b,#127681,#df0e62);
   background-position: center;
   background-color: #eaeaea;
   background-repeat: no-repeat;
