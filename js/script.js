@@ -54,3 +54,7 @@ $("#btn-sew").on("click", function(){
   console.log("click");
   $("#fader").fadeToggle();
 });
+
+$("#nomnom").on("hover", function(){
+  $("#intrest-img").toggle();
+});
