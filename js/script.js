@@ -55,6 +55,7 @@ $("#btn-sew").on("click", function(){
   $("#fader").fadeToggle();
 });
 
+/* wasn't able to get this working before class time
 $("#nomnom").on("hover", function(){
   $("#intrest-img").toggle();
-});
+});*/
