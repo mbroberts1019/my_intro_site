@@ -9,6 +9,16 @@
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 
+<!--
+  I rarely see the body with an id or class, since you will only have one body
+  in a document. Usually these styles would be applied on a kind of 'container' div.
+
+  <body>
+    <div id="container" class="text-center">
+
+    </div>
+  </body>
+-->
 <body id="index-body" class="text-center">
 
   <header class="masthead mb-auto">
@@ -22,6 +32,11 @@
     </div>
   </header>
 
+<!--
+  You could benefit from using <div> elements to better seperate sections. both
+  <header> and <footer> are used appropriately, and in place of a div, but the
+  content below is kind of adrift, without some sort of organizational container.
+-->
 
   <img id="coverImg" src="images/snowride.jpg" alt="Me riding my bike in the snow">
 
@@ -46,6 +61,10 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--
+    I now know what you meant with Bootstrap and the slim jquery. You can get rid
+    of the slim version, and just move the minified version *above* bootstrap.
+  -->
   <script type="text/javascript" src=js/script.js> </script>
  </body>
  </html>

@@ -31,6 +31,11 @@ $("#btn-home").click(function(){
 function toldYouSo() {
   let dogImg = document.getElementById("cliffImg");
   dogImg.src = "images/cliffypoo.jpeg";
+
+  /*
+    glad you got the chance to use setTimeout. That and setInterval can be really
+    powerful methods.
+  */
   setTimeout(function() {
     alert("Told you so!");
   }, 1000);
